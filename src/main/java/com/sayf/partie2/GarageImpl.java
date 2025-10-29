@@ -8,6 +8,7 @@ public class GarageImpl extends UnicastRemoteObject implements GarageInterface {
     
     public GarageImpl() throws RemoteException {
         super();
+
     }
 
     @Override

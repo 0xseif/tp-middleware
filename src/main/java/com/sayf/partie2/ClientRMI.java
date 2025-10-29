@@ -12,6 +12,7 @@ public class ClientRMI {
             Voiture voiture = new Voiture("Renault", "Clio", 2023);
             garage.recevoirVoiture(voiture);
             System.out.println("Voiture envoyée avec succès!");
+            System.out.println(voiture);
 
 
 
